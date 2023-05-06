@@ -1,7 +1,7 @@
 from flask_wtf import FlaskForm
 from wtforms import SelectField, StringField, ValidationError, BooleanField
 from wtforms.validators import DataRequired
-
+bbb
 
 class passvalidate(SelectField):
     def pre_validate(self, form):
